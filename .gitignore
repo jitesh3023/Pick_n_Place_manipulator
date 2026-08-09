@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# RoboDK/URSim temporary exports
+*.bak
+*.tmp
+
+# Outputs
+phase2/output/
