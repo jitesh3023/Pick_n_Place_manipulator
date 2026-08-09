@@ -11,7 +11,7 @@ What I learnt:
 - Waypoints and hardcoded motion loops
 
 Primary tools:
-- URSim (free, official UR simulator — runs via Docker)
+- URSim
 
 ## Phase 2: Synthetic Grasp Generator (Grasp Factory Replica)
 Goal: Write a Python pipeline that samples grasp angles around 3D objects and filters collision-prone grasps.
