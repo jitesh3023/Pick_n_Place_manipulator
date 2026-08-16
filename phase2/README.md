@@ -12,7 +12,7 @@ In this phase, you will write a script that:
 - Visual sanity check using trimesh scene
 
 ## Quick Start
-1. Create and activate a virtual environment.
+1. Create and activate a Python environment (`venv` or `conda`).
 2. Install dependencies from `requirements.txt`.
 3. Run:
    - `python src/grasp_sampler.py --primitive cylinder --samples 100`

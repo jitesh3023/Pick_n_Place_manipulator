@@ -9,7 +9,7 @@ Test the sampler on real object meshes (mug, drill, bottle, etc.).
 3. Run:
    - `python phase2/src/grasp_sampler.py --mesh phase2/assets/meshes/your_mesh.stl --samples 100`
 4. Compare valid grasp count across 2-3 mesh types.
-
+# conda run -n graspgen python phase2/src/grasp_sampler.py --mesh phase2/assets/meshes/your_mesh.stl --samples 100
 ## Validation
 - Script loads mesh without type errors.
 - Output JSON is generated and parseable.

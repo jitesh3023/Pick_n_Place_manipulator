@@ -6,6 +6,3 @@ __pycache__/
 # RoboDK/URSim temporary exports
 *.bak
 *.tmp
-
-# Outputs
-phase2/output/
