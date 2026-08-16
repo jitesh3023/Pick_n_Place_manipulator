@@ -14,7 +14,7 @@ For a vacuum gripper, set TCP at the center of the suction cup face.
 1. Go to **Installation → TCP Configuration**.
 2. Add a new TCP named `vacuum_tip`.
 3. Set offsets — for a simple vacuum cup ~80 mm below flange:
-   - X: 0, Y: 0, Z: 0.08 m, Rx: 0, Ry: 0, Rz: 0
+   - X: 0, Y: 0, Z: 80, Rx: 0, Ry: 0, Rz: 0
 4. Set `vacuum_tip` as the **Active TCP**.
 5. Verify by jogging the robot — the TCP marker should appear at the suction cup center.
 
