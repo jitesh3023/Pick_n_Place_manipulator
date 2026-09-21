@@ -5,24 +5,27 @@ Resets the arm, then follows a manually moved cube or runs a timed A/B sequence.
 No collision planning, grasping, or scene saving is performed.
 """
 
-import asyncio
+import asyncio  # asyncio:- Schedule the experiment without blocking Isac sim. Let our script wait
+                # without freezing Isaac Sim's GUI.
 
 import numpy as np
-import omni.kit.app
-import omni.timeline
-import omni.usd
-from isaacsim.core.api.simulation_context import SimulationContext
-from isaacsim.core.experimental.prims import XformPrim
-from isaacsim.core.simulation_manager import SimulationManager
-from isaacsim.robot.manipulators.examples.universal_robots import UR10Experimental
+import omni.kit.app     # Communicate with the Issac Sim GUI and its update loop. It talks 
+                        # to the GUI and lets Issac Sim complete its physics and rendering updates while our script waits for the next update.
+import omni.timeline    # This module gives our script access to the simulation time controls like play, pause, and the current time.
+import omni.usd         # To open the usd and use it in the script
+from isaacsim.core.api.simulation_context import SimulationContext                     # Manages the simulation setup and connect our code to physics
+from isaacsim.core.experimental.prims import XformPrim                                 # Reads and writes the position and orientation of the cube in the scene
+from isaacsim.core.simulation_manager import SimulationManager                         # Initializes the physics engine and manages the simulation loop
+from isaacsim.robot.manipulators.examples.universal_robots import UR10Experimental     # UR10e robot helper, including its IK. It lets use access the existing UR10 in Issac Sim,
+                                                                                       # read its joint positions, end-effector pose. Resets joints and calculate joint targets for a desired end-effector pose using IK solver.
 
 
 # True: drag the cube yourself. False: run the automatic A/B sequence.
 MANUAL_MODE = True
 
 # World-frame positions in metres; used only for the automatic sequence.
-TARGETS = ((0.40, 0.20, 0.30), (0.40, 0.10, 0.35))
-HOLD_SECONDS = 2.0  # Simulation time, not wall-clock time.
+TARGETS = ((0.40, 0.20, 0.30), (0.40, 0.10, 0.35))  # A, B, These are cube coordinates in world frame.
+HOLD_SECONDS = 1.0  # time between position A end and start of position B
 CYCLES = 2
 TARGET_PATH = "/World/TargetCube"
 ROBOT_PATH = "/World/ur10_robot"
