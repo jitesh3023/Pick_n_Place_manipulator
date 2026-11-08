@@ -1,0 +1,50 @@
+[ 53%] Built target moveit_robot_interaction
+[ 69%] Built target gtest_main
+[ 84%] Built target gtest
+[100%] Built target locked_robot_state_test
+-- Install configuration: "Release"
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so.2.15.2
+-- Set non-toolchain portion of runtime path of "/mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so.2.15.2" to ""
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/kinematic_options.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/locked_robot_state.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/interactive_marker_helpers.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/kinematic_options_map.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/kinematic_options.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/locked_robot_state.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/interaction_handler.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/robot_interaction.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/robot_interaction.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/interaction_handler.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/interaction.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/kinematic_options_map.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/interactive_marker_helpers.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit/robot_interaction/interaction.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/include/moveit_ros_robot_interaction/moveit_robot_interaction_export.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.dae
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.stl
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.sh
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.dsv
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/ament_index/resource_index/package_run_dependencies/moveit_ros_robot_interaction
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/ament_index/resource_index/parent_prefix_path/moveit_ros_robot_interaction
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/ament_prefix_path.sh
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/ament_prefix_path.dsv
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/path.sh
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/path.dsv
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.bash
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.sh
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.zsh
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.dsv
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.dsv
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/ament_index/resource_index/packages/moveit_ros_robot_interaction
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionTargetsExport.cmake
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionTargetsExport-release.cmake
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig.cmake
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig-version.cmake
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.xml

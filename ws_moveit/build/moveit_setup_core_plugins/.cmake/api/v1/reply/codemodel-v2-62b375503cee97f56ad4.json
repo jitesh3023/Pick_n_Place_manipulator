@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-72fdc593ce985b738c47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_setup_core_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_core_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_core_plugins-Release-2af699271d31ad1634ce.json",
+					"name" : "moveit_setup_core_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_core_plugins_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_core_plugins_autogen-Release-f2c0328e5ab87211adef.json",
+					"name" : "moveit_setup_core_plugins_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_core_plugins_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_core_plugins_autogen_timestamp_deps-Release-1a2e7d11ea3c4df32b3e.json",
+					"name" : "moveit_setup_core_plugins_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_core_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_core_plugins_uninstall-Release-08b236992158a669dd39.json",
+					"name" : "moveit_setup_core_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-a877207d51f532e8b254.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/moveit/ws_moveit/build/moveit_setup_core_plugins",
+		"source" : "/mnt/moveit/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

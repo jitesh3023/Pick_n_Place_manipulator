@@ -1,0 +1,23 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found action_msgs: 2.0.4 (/opt/ros/jazzy/share/action_msgs/cmake)
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found shape_msgs: 5.3.8 (/opt/ros/jazzy/share/shape_msgs/cmake)
+-- Found object_recognition_msgs: 2.0.0 (/opt/ros/jazzy/share/object_recognition_msgs/cmake)
+-- Found octomap_msgs: 2.0.1 (/opt/ros/jazzy/share/octomap_msgs/cmake)
+-- Found trajectory_msgs: 5.3.8 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Configuring done (1.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /mnt/moveit/ws_moveit/build/moveit_msgs

@@ -1,0 +1,82 @@
+-- Found moveit_common: 2.15.2 (/mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found moveit_core: 2.15.2 (/mnt/moveit/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+-- Found tcb_span: 1.3.2 (/opt/ros/jazzy/share/tcb_span/cmake)
+-- Found rclcpp_lifecycle: 28.1.22 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found parameter_traits: 0.7.6 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found warehouse_ros: 2.0.9 (/opt/ros/jazzy/share/warehouse_ros/cmake)
+-- Found moveit_ros_planning: 2.15.2 (/mnt/moveit/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    pybind11_DIR
+
+[0m
+-- Build files have been written to: /mnt/moveit/ws_moveit/build/moveit_ros_warehouse
+[ 40%] Built target moveit_warehouse
+[ 50%] Built target moveit_warehouse_broadcast
+[ 60%] Built target moveit_save_to_warehouse
+[ 70%] Built target moveit_warehouse_import_from_text
+[ 80%] Built target moveit_warehouse_save_as_text
+[ 90%] Built target moveit_init_demo_warehouse
+[100%] Built target moveit_warehouse_services
+-- Install configuration: "Release"
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/state_storage.hpp
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/trajectory_constraints_storage.h
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/planning_scene_storage.hpp
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/trajectory_constraints_storage.hpp
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/moveit_message_storage.h
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/planning_scene_world_storage.h
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/moveit_message_storage.hpp
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/constraints_storage.h
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/planning_scene_world_storage.hpp
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/state_storage.h
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/constraints_storage.hpp
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/warehouse_connector.h
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/planning_scene_storage.h
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/warehouse_connector.hpp
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit_warehouse_export.h
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.15.2
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.sh
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.dsv
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/ament_index/resource_index/package_run_dependencies/moveit_ros_warehouse
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/ament_index/resource_index/parent_prefix_path/moveit_ros_warehouse
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.sh
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.dsv
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.sh
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.dsv
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.bash
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.sh
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.zsh
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.dsv
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.dsv
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/ament_index/resource_index/packages/moveit_ros_warehouse
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseTargetsExport.cmake
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseTargetsExport-release.cmake
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.xml

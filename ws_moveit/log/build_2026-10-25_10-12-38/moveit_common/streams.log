@@ -1,0 +1,35 @@
+[0.016s] Invoking command in '/mnt/moveit/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /mnt/moveit/ws_moveit/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -Dpybind11_DIR=/mnt/moveit/tooling/pybind11/pybind11/share/cmake/pybind11 -DCMAKE_INSTALL_PREFIX=/mnt/moveit/ws_moveit/install/moveit_common
+[0.024s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.151s] -- Configuring done (0.1s)
+[0.152s] -- Generating done (0.0s)
+[0.153s] [33mCMake Warning:
+[0.153s]   Manually-specified variables were not used by the project:
+[0.153s] 
+[0.153s]     pybind11_DIR
+[0.153s] 
+[0.153s] [0m
+[0.153s] -- Build files have been written to: /mnt/moveit/ws_moveit/build/moveit_common
+[0.155s] Invoked command in '/mnt/moveit/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /mnt/moveit/ws_moveit/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -Dpybind11_DIR=/mnt/moveit/tooling/pybind11/pybind11/share/cmake/pybind11 -DCMAKE_INSTALL_PREFIX=/mnt/moveit/ws_moveit/install/moveit_common
+[0.156s] Invoking command in '/mnt/moveit/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /mnt/moveit/ws_moveit/build/moveit_common
+[0.186s] Invoked command in '/mnt/moveit/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /mnt/moveit/ws_moveit/build/moveit_common
+[0.194s] Invoking command in '/mnt/moveit/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /mnt/moveit/ws_moveit/build/moveit_common
+[0.200s] -- Install configuration: "Release"
+[0.200s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[0.200s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[0.200s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[0.200s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[0.200s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/environment/path.sh
+[0.200s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/environment/path.dsv
+[0.200s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/local_setup.bash
+[0.200s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/local_setup.sh
+[0.201s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/local_setup.zsh
+[0.201s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/local_setup.dsv
+[0.201s] -- Installing: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/package.dsv
+[0.201s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[0.201s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[0.201s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[0.201s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[0.201s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/package.xml
+[0.201s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/cmake
+[0.201s] -- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[0.202s] Invoked command in '/mnt/moveit/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /mnt/moveit/ws_moveit/build/moveit_common

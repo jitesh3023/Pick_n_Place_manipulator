@@ -1,0 +1,1 @@
+ament_index_cpp;geometric_shapes;geometry_msgs;graph_msgs;moveit_common;moveit_core;moveit_msgs;moveit_ros_planning;rclcpp;rviz_visual_tools;interactive_markers;std_msgs;tf2_eigen;tf2_ros;trajectory_msgs;visualization_msgs;ament_lint_auto;ament_lint_common
