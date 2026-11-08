@@ -1,0 +1,10 @@
+[0.196s] Invoking command in '/mnt/moveit/ws_moveit/build/kortex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/moveit/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /mnt/moveit/ws_moveit/compat/kinova_rviz/share/kortex_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/mnt/moveit/ws_moveit/install/kortex_description
+[0.209s] [33mCMake Warning:
+[0.209s]   Ignoring extra path from command line:
+[0.209s] 
+[0.209s]    "/mnt/moveit/ws_moveit/compat/kinova_rviz/share/kortex_description"
+[0.209s] 
+[0.209s] [0m
+[0.209s] [0mCMake Error: The source directory "/mnt/moveit/ws_moveit/compat/kinova_rviz/share/kortex_description" does not appear to contain CMakeLists.txt.
+[0.209s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.211s] Invoked command in '/mnt/moveit/ws_moveit/build/kortex_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/moveit/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /mnt/moveit/ws_moveit/compat/kinova_rviz/share/kortex_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/mnt/moveit/ws_moveit/install/kortex_description

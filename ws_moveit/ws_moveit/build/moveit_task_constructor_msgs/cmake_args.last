@@ -1,0 +1,1 @@
+['-DCMAKE_BUILD_TYPE=Release', '-Dpybind11_DIR=/mnt/moveit/tooling/pybind11/pybind11/share/cmake/pybind11']

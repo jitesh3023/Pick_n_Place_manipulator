@@ -1,0 +1,17 @@
+{
+  "package_name": "moveit_task_constructor_msgs",
+  "non_idl_tuples": [
+    "/mnt/moveit/ws_moveit/src/moveit_task_constructor/msgs:msg/Property.msg",
+    "/mnt/moveit/ws_moveit/src/moveit_task_constructor/msgs:msg/Solution.msg",
+    "/mnt/moveit/ws_moveit/src/moveit_task_constructor/msgs:msg/SolutionInfo.msg",
+    "/mnt/moveit/ws_moveit/src/moveit_task_constructor/msgs:msg/StageDescription.msg",
+    "/mnt/moveit/ws_moveit/src/moveit_task_constructor/msgs:msg/StageStatistics.msg",
+    "/mnt/moveit/ws_moveit/src/moveit_task_constructor/msgs:msg/SubSolution.msg",
+    "/mnt/moveit/ws_moveit/src/moveit_task_constructor/msgs:msg/SubTrajectory.msg",
+    "/mnt/moveit/ws_moveit/src/moveit_task_constructor/msgs:msg/TaskDescription.msg",
+    "/mnt/moveit/ws_moveit/src/moveit_task_constructor/msgs:msg/TaskStatistics.msg",
+    "/mnt/moveit/ws_moveit/src/moveit_task_constructor/msgs:msg/TrajectoryExecutionInfo.msg",
+    "/mnt/moveit/ws_moveit/src/moveit_task_constructor/msgs:srv/GetSolution.srv",
+    "/mnt/moveit/ws_moveit/src/moveit_task_constructor/msgs:action/ExecuteTaskSolution.action"
+  ]
+}

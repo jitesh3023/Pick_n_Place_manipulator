@@ -1,0 +1,137 @@
+[0.005s] Invoking command in '/mnt/moveit/ws_moveit/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /mnt/moveit/ws_moveit/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -Dpybind11_DIR=/mnt/moveit/tooling/pybind11/pybind11/share/cmake/pybind11 -DCMAKE_INSTALL_PREFIX=/mnt/moveit/ws_moveit/install/rviz_visual_tools
+[0.018s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.159s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.177s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.183s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.234s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.235s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.283s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.325s] -- Found rclcpp_components: 28.1.22 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.351s] -- Found rviz_ogre_vendor: 14.1.24 (/opt/ros/jazzy/share/rviz_ogre_vendor/cmake)
+[0.351s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.353s] -- Found OGRE
+[0.353s] --   static     : OFF
+[0.353s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.353s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.353s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.353s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.353s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[0.353s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.353s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[0.353s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.353s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.354s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.354s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.424s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.457s] -- Found shape_msgs: 5.3.8 (/opt/ros/jazzy/share/shape_msgs/cmake)
+[0.467s] -- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.485s] -- Found trajectory_msgs: 5.3.8 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[0.497s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.497s] -- Found eigen_stl_containers: 1.1.0 (/opt/ros/jazzy/share/eigen_stl_containers/cmake)
+[0.503s] -- Found tf2: 0.36.23 (/opt/ros/jazzy/share/tf2/cmake)
+[0.505s] -- Found tf2_eigen: 0.36.23 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[0.556s] -- Found tf2_geometry_msgs: 0.36.23 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.560s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.561s] -- Found pluginlib: 5.4.6 (/opt/ros/jazzy/share/pluginlib/cmake)
+[0.571s] -- Found interactive_markers: 2.5.5 (/opt/ros/jazzy/share/interactive_markers/cmake)
+[0.576s] -- Found rviz_common: 14.1.24 (/opt/ros/jazzy/share/rviz_common/cmake)
+[0.605s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[0.611s] -- Found rviz_default_plugins: 14.1.24 (/opt/ros/jazzy/share/rviz_default_plugins/cmake)
+[0.684s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[0.684s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.749s] -- Configuring done (0.7s)
+[0.827s] -- Generating done (0.0s)
+[0.829s] [33mCMake Warning:
+[0.830s]   Manually-specified variables were not used by the project:
+[0.830s] 
+[0.830s]     pybind11_DIR
+[0.830s] 
+[0.830s] [0m
+[0.840s] -- Build files have been written to: /mnt/moveit/ws_moveit/build/rviz_visual_tools
+[0.849s] Invoked command in '/mnt/moveit/ws_moveit/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /mnt/moveit/ws_moveit/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -Dpybind11_DIR=/mnt/moveit/tooling/pybind11/pybind11/share/cmake/pybind11 -DCMAKE_INSTALL_PREFIX=/mnt/moveit/ws_moveit/install/rviz_visual_tools
+[0.850s] Invoking command in '/mnt/moveit/ws_moveit/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /mnt/moveit/ws_moveit/build/rviz_visual_tools
+[0.892s] [  0%] Built target rviz_visual_tools_gui_autogen_timestamp_deps
+[0.949s] [  2%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[0.980s] [  2%] Built target rviz_visual_tools_gui_autogen
+[1.023s] [ 14%] Built target rviz_visual_tools_gui
+[1.041s] [ 14%] Built target rviz_visual_tools_remote_control_autogen_timestamp_deps
+[1.068s] [ 17%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[1.092s] [ 17%] Built target rviz_visual_tools_remote_control_autogen
+[1.118s] [ 24%] Built target rviz_visual_tools_remote_control
+[1.135s] [ 24%] Built target rviz_visual_tools_autogen_timestamp_deps
+[1.167s] [ 26%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[1.192s] [ 26%] Built target rviz_visual_tools_autogen
+[1.236s] [ 36%] Built target rviz_visual_tools
+[1.256s] [ 36%] Built target rviz_visual_tools_imarker_simple_autogen_timestamp_deps
+[1.293s] [ 39%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[1.318s] [ 39%] Built target rviz_visual_tools_imarker_simple_autogen
+[1.364s] [ 46%] Built target rviz_visual_tools_imarker_simple
+[1.379s] [ 46%] Built target rviz_visual_tools_demo_autogen_timestamp_deps
+[1.416s] [ 48%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[1.446s] [ 48%] Built target rviz_visual_tools_demo_autogen
+[1.472s] [ 56%] Built target rviz_visual_tools_demo
+[1.494s] [ 56%] Built target rviz_visual_tools_imarker_simple_demo_autogen_timestamp_deps
+[1.536s] [ 58%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[1.566s] [ 58%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[1.597s] [ 65%] Built target rviz_visual_tools_imarker_simple_demo
+[1.619s] [ 65%] Built target gtest_main_autogen_timestamp_deps
+[1.643s] [ 68%] Built target gtest_main_autogen
+[1.669s] [ 78%] Built target gtest_main
+[1.690s] [ 78%] Built target gtest_autogen_timestamp_deps
+[1.711s] [ 80%] Built target gtest_autogen
+[1.738s] [ 90%] Built target gtest
+[1.759s] [ 90%] Built target rviz_visual_tools_rvt_test_autogen_timestamp_deps
+[1.786s] [ 92%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[1.807s] [ 92%] Built target rviz_visual_tools_rvt_test_autogen
+[1.838s] [100%] Built target rviz_visual_tools_rvt_test
+[1.847s] Invoked command in '/mnt/moveit/ws_moveit/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /mnt/moveit/ws_moveit/build/rviz_visual_tools
+[1.848s] Invoking command in '/mnt/moveit/ws_moveit/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /mnt/moveit/ws_moveit/build/rviz_visual_tools
+[1.857s] -- Install configuration: "Release"
+[1.858s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/plugin_description.xml
+[1.860s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/lib/librviz_visual_tools.so
+[1.862s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so
+[1.865s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so
+[1.866s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so
+[1.868s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo
+[1.869s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo
+[1.869s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/include
+[1.870s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools
+[1.870s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/key_tool.hpp
+[1.870s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp
+[1.870s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp
+[1.871s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/imarker_simple.hpp
+[1.871s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp
+[1.871s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools_gui.hpp
+[1.871s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/include/rviz_visual_tools/remote_reciever.hpp
+[1.871s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/launch
+[1.872s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/launch/rvt_test.launch
+[1.872s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo.rviz
+[1.872s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_rviz.launch.py
+[1.872s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_combined.launch.py
+[1.872s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.sh
+[1.872s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.dsv
+[1.873s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools
+[1.873s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools
+[1.873s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.sh
+[1.873s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.dsv
+[1.873s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.sh
+[1.873s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.dsv
+[1.873s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.bash
+[1.873s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.sh
+[1.873s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.zsh
+[1.873s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.dsv
+[1.873s] -- Installing: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv
+[1.873s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/ament_index/resource_index/packages/rviz_visual_tools
+[1.873s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools
+[1.874s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport.cmake
+[1.874s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport-release.cmake
+[1.874s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[1.874s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.874s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.874s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[1.874s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake
+[1.874s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake
+[1.874s] -- Up-to-date: /mnt/moveit/ws_moveit/install/rviz_visual_tools/share/rviz_visual_tools/package.xml
+[1.875s] Invoked command in '/mnt/moveit/ws_moveit/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /mnt/moveit/ws_moveit/build/rviz_visual_tools

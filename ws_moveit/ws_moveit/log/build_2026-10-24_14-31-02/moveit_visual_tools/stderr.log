@@ -1,0 +1,7 @@
+/usr/bin/ld: libmoveit_visual_tools.so: undefined reference to `boost::filesystem::detail::status(boost::filesystem::path const&, boost::system::error_code*)'
+/usr/bin/ld: libmoveit_visual_tools.so: undefined reference to `boost::filesystem::detail::create_directories(boost::filesystem::path const&, boost::system::error_code*)'
+/usr/bin/ld: libmoveit_visual_tools.so: undefined reference to `boost::filesystem::detail::path_algorithms::append_v3(boost::filesystem::path&, char const*, char const*)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/moveit_visual_tools_demo.dir/build.make:345: moveit_visual_tools_demo] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/moveit_visual_tools_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

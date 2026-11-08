@@ -1,0 +1,109 @@
+[  8%] Built target kdl_kinematics_parameters
+[ 16%] Built target cached_ik_kinematics_parameters
+[ 24%] Built target moveit_cached_ik_kinematics_base
+[ 32%] Built target srv_kinematics_parameters
+[ 40%] Built target moveit_srv_kinematics_plugin
+[ 52%] Built target moveit_kdl_kinematics_plugin
+[ 60%] Built target moveit_cached_ik_kinematics_plugin
+[ 68%] Built target gtest_main
+[ 76%] Built target gtest
+[ 84%] Built target test_kdl_pseudoinverse
+[ 92%] Built target test_kinematics_plugin
+[100%] Built target benchmark_ik
+-- Install configuration: "Release"
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/kdl_kinematics_plugin_description.xml
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/srv_kinematics_plugin_description.xml
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cached_ik_kinematics_plugin_description.xml
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/cached_ik_kinematics_parameters.hpp
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_parameters.yaml
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch/measure_ik_call_cost.launch
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/auto_create_ikfast_moveit_plugin.sh
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/create_ikfast_moveit_plugin.py
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/round_collada_numbers.py
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast61_moveit_plugin_template.cpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast_kinematics_parameters.yaml
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/kdl_kinematics_parameters.hpp
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/chainiksolver_vel_mimic_svd.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/joint_mimic.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/chainiksolver_vel_mimic_svd.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/joint_mimic.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/srv_kinematics_parameters.hpp
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/srv_kinematics_plugin
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/srv_kinematics_plugin/srv_kinematics_plugin.hpp
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/config
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-test.yaml
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-singular-test.yaml
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-singular-test.yaml
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-test.yaml
+-- Up-to-date: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl-singular.test.py
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl-singular.test.py
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl.test.py
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl.test.py
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik
+-- Set non-toolchain portion of runtime path of "/mnt/moveit/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik" to ""
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin
+-- Set non-toolchain portion of runtime path of "/mnt/moveit/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin" to ""
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.15.2
+-- Set non-toolchain portion of runtime path of "/mnt/moveit/ws_moveit/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.15.2" to ""
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.15.2
+-- Set non-toolchain portion of runtime path of "/mnt/moveit/ws_moveit/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.15.2" to ""
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so
+-- Set non-toolchain portion of runtime path of "/mnt/moveit/ws_moveit/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so" to ""
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.15.2
+-- Set non-toolchain portion of runtime path of "/mnt/moveit/ws_moveit/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.15.2" to ""
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.sh
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.dsv
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/ament_index/resource_index/package_run_dependencies/moveit_kinematics
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/ament_index/resource_index/parent_prefix_path/moveit_kinematics
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.sh
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.dsv
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/environment/path.sh
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/environment/path.dsv
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/local_setup.bash
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/local_setup.sh
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/local_setup.zsh
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/local_setup.dsv
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/package.dsv
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/ament_index/resource_index/packages/moveit_kinematics
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_kinematics
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsTargetsExport.cmake
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsTargetsExport-release.cmake
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/ConfigExtras.cmake
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig.cmake
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig-version.cmake
+-- Installing: /mnt/moveit/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/package.xml

@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000420] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000496] (-) JobUnselected: {'identifier': 'dual_arm_panda_moveit_config'}
+[0.000523] (-) JobUnselected: {'identifier': 'kortex_description'}
+[0.000546] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000570] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000732] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000841] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000865] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000886] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000907] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.001037] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.001100] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.001121] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.001174] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.001202] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.001242] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.001273] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.001294] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.001314] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.001348] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.001371] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.001432] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.001479] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.001516] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.001544] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.001565] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.001585] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.001627] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.001656] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.001676] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.002267] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.002319] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.002340] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.002361] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.002381] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.002401] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.002451] (-) JobUnselected: {'identifier': 'moveit_ros_tests'}
+[0.002475] (-) JobUnselected: {'identifier': 'moveit_ros_trajectory_cache'}
+[0.002522] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.002542] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.002562] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.002591] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.002612] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.002648] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.002677] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.002747] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.002768] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.002792] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.003246] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.003430] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.003725] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.004596] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.004633] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.004661] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.004680] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.004806] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.004828] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.004877] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.004897] (-) JobUnselected: {'identifier': 'rviz_visual_tools'}
+[0.004917] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict({'moveit_common': '/mnt/moveit/ws_moveit/install/moveit_common', 'moveit_configs_utils': '/mnt/moveit/ws_moveit/install/moveit_configs_utils', 'moveit_msgs': '/mnt/moveit/ws_moveit/install/moveit_msgs', 'moveit_resources_fanuc_description': '/mnt/moveit/ws_moveit/install/moveit_resources_fanuc_description', 'moveit_resources_panda_description': '/mnt/moveit/ws_moveit/install/moveit_resources_panda_description', 'moveit_resources_pr2_description': '/mnt/moveit/ws_moveit/install/moveit_resources_pr2_description', 'rviz_visual_tools': '/mnt/moveit/ws_moveit/install/rviz_visual_tools', 'moveit_resources_fanuc_moveit_config': '/mnt/moveit/ws_moveit/install/moveit_resources_fanuc_moveit_config', 'moveit_resources_panda_moveit_config': '/mnt/moveit/ws_moveit/install/moveit_resources_panda_moveit_config', 'moveit_core': '/mnt/moveit/ws_moveit/install/moveit_core', 'moveit_ros_occupancy_map_monitor': '/mnt/moveit/ws_moveit/install/moveit_ros_occupancy_map_monitor', 'moveit_simple_controller_manager': '/mnt/moveit/ws_moveit/install/moveit_simple_controller_manager', 'moveit_ros_planning': '/mnt/moveit/ws_moveit/install/moveit_ros_planning', 'moveit_kinematics': '/mnt/moveit/ws_moveit/install/moveit_kinematics', 'moveit_ros_warehouse': '/mnt/moveit/ws_moveit/install/moveit_ros_warehouse', 'moveit_visual_tools': '/mnt/moveit/ws_moveit/install/moveit_visual_tools', 'moveit_ros_move_group': '/mnt/moveit/ws_moveit/install/moveit_ros_move_group', 'moveit_ros_planning_interface': '/mnt/moveit/ws_moveit/install/moveit_ros_planning_interface'})}
+[0.004964] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.027561] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'cmake'}
+[0.028629] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'build'}
+[0.028661] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/moveit/ws_moveit/build/hello_moveit', '--', '-j16', '-l16'], 'cwd': '/mnt/moveit/ws_moveit/build/hello_moveit', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'jitesh', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/mnt/moveit/ws_moveit/install/moveit_ros_planning_interface/lib:/mnt/moveit/ws_moveit/install/moveit_ros_move_group/lib:/mnt/moveit/ws_moveit/install/moveit_visual_tools/lib:/mnt/moveit/ws_moveit/install/moveit_ros_warehouse/lib:/mnt/moveit/ws_moveit/install/moveit_kinematics/lib:/mnt/moveit/ws_moveit/install/moveit_ros_planning/lib:/mnt/moveit/ws_moveit/install/moveit_simple_controller_manager/lib:/mnt/moveit/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/mnt/moveit/ws_moveit/install/moveit_core/lib:/mnt/moveit/ws_moveit/install/rviz_visual_tools/lib:/mnt/moveit/ws_moveit/install/moveit_msgs/lib:/opt/spinnaker/lib64:/usr/local/cuda-12.6/lib64', 'HOME': '/home/jitesh', 'CONDA_SHLVL': '1', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/jitesh/.nvm/versions/node/v18.20.8/bin', 'NVM_INC': '/home/jitesh/.nvm/versions/node/v18.20.8/include/node', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2531', 'SYSTEMD_EXEC_PID': '3020', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', '_CONDA_ROOT': '/home/jitesh/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4663', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/jitesh/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'jitesh', 'JOURNAL_STREAM': '8:31929', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jitesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/mnt/moveit/ws_moveit/install/moveit_core/bin:/home/jitesh/.nvm/versions/node/v18.20.8/bin:/home/jitesh/miniconda3/bin:/home/jitesh/miniconda3/condabin:/opt/ros/humble/lib/rqt_image_view:/opt/spinnaker/bin:/usr/local/cuda-12.6/bin:/home/jitesh/.local/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jitesh-Victus-by-HP-Gaming-Laptop-15-fa0xxx:@/tmp/.ICE-unix/2872,unix/jitesh-Victus-by-HP-Gaming-Laptop-15-fa0xxx:/tmp/.ICE-unix/2872', 'INVOCATION_ID': '83542d4980e943d38e2e46187b6421a3', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SPINNAKER_GENTL64_CTI': '/opt/spinnaker/lib/spinnaker-gentl/Spinnaker_GenTL.cti', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SPINNAKER_HOME': '/opt/spinnaker', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'CONDA_PYTHON_EXE': '/home/jitesh/miniconda3/bin/python', 'AMENT_PREFIX_PATH': '/mnt/moveit/ws_moveit/install/moveit_ros_planning_interface:/mnt/moveit/ws_moveit/install/moveit_ros_move_group:/mnt/moveit/ws_moveit/install/moveit_visual_tools:/mnt/moveit/ws_moveit/install/moveit_ros_warehouse:/mnt/moveit/ws_moveit/install/moveit_kinematics:/mnt/moveit/ws_moveit/install/moveit_ros_planning:/mnt/moveit/ws_moveit/install/moveit_simple_controller_manager:/mnt/moveit/ws_moveit/install/moveit_ros_occupancy_map_monitor:/mnt/moveit/ws_moveit/install/moveit_core:/mnt/moveit/ws_moveit/install/moveit_resources_panda_moveit_config:/mnt/moveit/ws_moveit/install/moveit_resources_fanuc_moveit_config:/mnt/moveit/ws_moveit/install/rviz_visual_tools:/mnt/moveit/ws_moveit/install/moveit_resources_pr2_description:/mnt/moveit/ws_moveit/install/moveit_resources_panda_description:/mnt/moveit/ws_moveit/install/moveit_resources_fanuc_description:/mnt/moveit/ws_moveit/install/moveit_msgs:/mnt/moveit/ws_moveit/install/moveit_configs_utils:/mnt/moveit/ws_moveit/install/moveit_common', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:00ed6d55-7e68-45ed-bbed-973682c14b87', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/jitesh/miniconda3/bin/conda', 'QT_IM_MODULE': 'ibus', 'PWD': '/mnt/moveit/ws_moveit/build/hello_moveit', 'CUDA_HOME': '/usr/local/cuda-12.6', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/jitesh/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/moveit/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/mnt/moveit/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/jitesh/miniconda3', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'GENICAM_GENTL64_PATH': '/opt/spinnaker/lib/spinnaker-gentl', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/mnt/moveit/ws_moveit/install/moveit_ros_planning_interface:/mnt/moveit/ws_moveit/install/moveit_ros_move_group:/mnt/moveit/ws_moveit/install/moveit_visual_tools:/mnt/moveit/ws_moveit/install/moveit_ros_warehouse:/mnt/moveit/ws_moveit/install/moveit_kinematics:/mnt/moveit/ws_moveit/install/moveit_ros_planning:/mnt/moveit/ws_moveit/install/moveit_simple_controller_manager:/mnt/moveit/ws_moveit/install/moveit_ros_occupancy_map_monitor:/mnt/moveit/ws_moveit/install/moveit_core:/mnt/moveit/ws_moveit/install/moveit_resources_panda_moveit_config:/mnt/moveit/ws_moveit/install/moveit_resources_fanuc_moveit_config:/mnt/moveit/ws_moveit/install/rviz_visual_tools:/mnt/moveit/ws_moveit/install/moveit_resources_pr2_description:/mnt/moveit/ws_moveit/install/moveit_resources_panda_description:/mnt/moveit/ws_moveit/install/moveit_resources_fanuc_description:/mnt/moveit/ws_moveit/install/moveit_msgs:/mnt/moveit/ws_moveit/install/moveit_common'}), 'shell': False}
+[0.095191] (hello_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[0.099798] (-) TimerEvent: {}
+[0.200099] (-) TimerEvent: {}
+[0.300394] (-) TimerEvent: {}
+[0.400710] (-) TimerEvent: {}
+[0.501008] (-) TimerEvent: {}
+[0.601347] (-) TimerEvent: {}
+[0.701654] (-) TimerEvent: {}
+[0.801953] (-) TimerEvent: {}
+[0.902289] (-) TimerEvent: {}
+[1.002608] (-) TimerEvent: {}
+[1.103010] (-) TimerEvent: {}
+[1.203304] (-) TimerEvent: {}
+[1.303608] (-) TimerEvent: {}
+[1.403953] (-) TimerEvent: {}
+[1.504252] (-) TimerEvent: {}
+[1.604484] (-) TimerEvent: {}
+[1.704767] (-) TimerEvent: {}
+[1.805107] (-) TimerEvent: {}
+[1.905409] (-) TimerEvent: {}
+[2.005749] (-) TimerEvent: {}
+[2.106041] (-) TimerEvent: {}
+[2.206354] (-) TimerEvent: {}
+[2.306662] (-) TimerEvent: {}
+[2.407011] (-) TimerEvent: {}
+[2.507467] (-) TimerEvent: {}
+[2.607775] (-) TimerEvent: {}
+[2.708068] (-) TimerEvent: {}
+[2.808463] (-) TimerEvent: {}
+[2.908798] (-) TimerEvent: {}
+[3.009104] (-) TimerEvent: {}
+[3.109484] (-) TimerEvent: {}
+[3.209801] (-) TimerEvent: {}
+[3.310148] (-) TimerEvent: {}
+[3.410453] (-) TimerEvent: {}
+[3.510812] (-) TimerEvent: {}
+[3.611146] (-) TimerEvent: {}
+[3.711582] (-) TimerEvent: {}
+[3.812036] (-) TimerEvent: {}
+[3.912440] (-) TimerEvent: {}
+[4.012760] (-) TimerEvent: {}
+[4.113060] (-) TimerEvent: {}
+[4.213483] (-) TimerEvent: {}
+[4.313878] (-) TimerEvent: {}
+[4.414160] (-) TimerEvent: {}
+[4.514445] (-) TimerEvent: {}
+[4.614842] (-) TimerEvent: {}
+[4.715168] (-) TimerEvent: {}
+[4.815623] (-) TimerEvent: {}
+[4.915904] (-) TimerEvent: {}
+[5.016205] (-) TimerEvent: {}
+[5.116581] (-) TimerEvent: {}
+[5.216876] (-) TimerEvent: {}
+[5.317181] (-) TimerEvent: {}
+[5.417553] (-) TimerEvent: {}
+[5.517971] (-) TimerEvent: {}
+[5.618265] (-) TimerEvent: {}
+[5.718671] (-) TimerEvent: {}
+[5.819034] (-) TimerEvent: {}
+[5.919467] (-) TimerEvent: {}
+[6.019733] (-) TimerEvent: {}
+[6.120057] (-) TimerEvent: {}
+[6.220402] (-) TimerEvent: {}
+[6.320769] (-) TimerEvent: {}
+[6.421201] (-) TimerEvent: {}
+[6.521544] (-) TimerEvent: {}
+[6.621989] (-) TimerEvent: {}
+[6.722360] (-) TimerEvent: {}
+[6.822785] (-) TimerEvent: {}
+[6.923113] (-) TimerEvent: {}
+[7.023450] (-) TimerEvent: {}
+[7.123859] (-) TimerEvent: {}
+[7.224177] (-) TimerEvent: {}
+[7.324554] (-) TimerEvent: {}
+[7.424872] (-) TimerEvent: {}
+[7.525169] (-) TimerEvent: {}
+[7.625591] (-) TimerEvent: {}
+[7.640650] (hello_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_moveit\x1b[0m\n'}
+[7.725700] (-) TimerEvent: {}
+[7.825985] (-) TimerEvent: {}
+[7.926287] (-) TimerEvent: {}
+[7.967374] (hello_moveit) StdoutLine: {'line': b'[100%] Built target hello_moveit\n'}
+[7.975334] (hello_moveit) CommandEnded: {'returncode': 0}
+[7.975871] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'install'}
+[7.984143] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/moveit/ws_moveit/build/hello_moveit'], 'cwd': '/mnt/moveit/ws_moveit/build/hello_moveit', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'jitesh', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/mnt/moveit/ws_moveit/install/moveit_ros_planning_interface/lib:/mnt/moveit/ws_moveit/install/moveit_ros_move_group/lib:/mnt/moveit/ws_moveit/install/moveit_visual_tools/lib:/mnt/moveit/ws_moveit/install/moveit_ros_warehouse/lib:/mnt/moveit/ws_moveit/install/moveit_kinematics/lib:/mnt/moveit/ws_moveit/install/moveit_ros_planning/lib:/mnt/moveit/ws_moveit/install/moveit_simple_controller_manager/lib:/mnt/moveit/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/mnt/moveit/ws_moveit/install/moveit_core/lib:/mnt/moveit/ws_moveit/install/rviz_visual_tools/lib:/mnt/moveit/ws_moveit/install/moveit_msgs/lib:/opt/spinnaker/lib64:/usr/local/cuda-12.6/lib64', 'HOME': '/home/jitesh', 'CONDA_SHLVL': '1', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/jitesh/.nvm/versions/node/v18.20.8/bin', 'NVM_INC': '/home/jitesh/.nvm/versions/node/v18.20.8/include/node', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2531', 'SYSTEMD_EXEC_PID': '3020', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', '_CONDA_ROOT': '/home/jitesh/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4663', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/jitesh/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'jitesh', 'JOURNAL_STREAM': '8:31929', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jitesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/mnt/moveit/ws_moveit/install/moveit_core/bin:/home/jitesh/.nvm/versions/node/v18.20.8/bin:/home/jitesh/miniconda3/bin:/home/jitesh/miniconda3/condabin:/opt/ros/humble/lib/rqt_image_view:/opt/spinnaker/bin:/usr/local/cuda-12.6/bin:/home/jitesh/.local/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jitesh-Victus-by-HP-Gaming-Laptop-15-fa0xxx:@/tmp/.ICE-unix/2872,unix/jitesh-Victus-by-HP-Gaming-Laptop-15-fa0xxx:/tmp/.ICE-unix/2872', 'INVOCATION_ID': '83542d4980e943d38e2e46187b6421a3', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SPINNAKER_GENTL64_CTI': '/opt/spinnaker/lib/spinnaker-gentl/Spinnaker_GenTL.cti', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SPINNAKER_HOME': '/opt/spinnaker', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'CONDA_PYTHON_EXE': '/home/jitesh/miniconda3/bin/python', 'AMENT_PREFIX_PATH': '/mnt/moveit/ws_moveit/install/moveit_ros_planning_interface:/mnt/moveit/ws_moveit/install/moveit_ros_move_group:/mnt/moveit/ws_moveit/install/moveit_visual_tools:/mnt/moveit/ws_moveit/install/moveit_ros_warehouse:/mnt/moveit/ws_moveit/install/moveit_kinematics:/mnt/moveit/ws_moveit/install/moveit_ros_planning:/mnt/moveit/ws_moveit/install/moveit_simple_controller_manager:/mnt/moveit/ws_moveit/install/moveit_ros_occupancy_map_monitor:/mnt/moveit/ws_moveit/install/moveit_core:/mnt/moveit/ws_moveit/install/moveit_resources_panda_moveit_config:/mnt/moveit/ws_moveit/install/moveit_resources_fanuc_moveit_config:/mnt/moveit/ws_moveit/install/rviz_visual_tools:/mnt/moveit/ws_moveit/install/moveit_resources_pr2_description:/mnt/moveit/ws_moveit/install/moveit_resources_panda_description:/mnt/moveit/ws_moveit/install/moveit_resources_fanuc_description:/mnt/moveit/ws_moveit/install/moveit_msgs:/mnt/moveit/ws_moveit/install/moveit_configs_utils:/mnt/moveit/ws_moveit/install/moveit_common', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:00ed6d55-7e68-45ed-bbed-973682c14b87', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', '_CONDA_EXE': '/home/jitesh/miniconda3/bin/conda', 'QT_IM_MODULE': 'ibus', 'PWD': '/mnt/moveit/ws_moveit/build/hello_moveit', 'CUDA_HOME': '/usr/local/cuda-12.6', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/jitesh/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/moveit/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/mnt/moveit/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/jitesh/miniconda3', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'GENICAM_GENTL64_PATH': '/opt/spinnaker/lib/spinnaker-gentl', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/mnt/moveit/ws_moveit/install/moveit_ros_planning_interface:/mnt/moveit/ws_moveit/install/moveit_ros_move_group:/mnt/moveit/ws_moveit/install/moveit_visual_tools:/mnt/moveit/ws_moveit/install/moveit_ros_warehouse:/mnt/moveit/ws_moveit/install/moveit_kinematics:/mnt/moveit/ws_moveit/install/moveit_ros_planning:/mnt/moveit/ws_moveit/install/moveit_simple_controller_manager:/mnt/moveit/ws_moveit/install/moveit_ros_occupancy_map_monitor:/mnt/moveit/ws_moveit/install/moveit_core:/mnt/moveit/ws_moveit/install/moveit_resources_panda_moveit_config:/mnt/moveit/ws_moveit/install/moveit_resources_fanuc_moveit_config:/mnt/moveit/ws_moveit/install/rviz_visual_tools:/mnt/moveit/ws_moveit/install/moveit_resources_pr2_description:/mnt/moveit/ws_moveit/install/moveit_resources_panda_description:/mnt/moveit/ws_moveit/install/moveit_resources_fanuc_description:/mnt/moveit/ws_moveit/install/moveit_msgs:/mnt/moveit/ws_moveit/install/moveit_common'}), 'shell': False}
+[7.989949] (hello_moveit) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[7.990158] (hello_moveit) StdoutLine: {'line': b'-- Installing: /mnt/moveit/ws_moveit/install/hello_moveit/lib/hello_moveit/hello_moveit\n'}
+[7.996152] (hello_moveit) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/mnt/moveit/ws_moveit/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""\n'}
+[7.996481] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit\n'}
+[7.996614] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit\n'}
+[7.996718] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh\n'}
+[7.996820] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv\n'}
+[7.996920] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/hello_moveit/environment/path.sh\n'}
+[7.997046] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/hello_moveit/environment/path.dsv\n'}
+[7.997158] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.bash\n'}
+[7.997241] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.sh\n'}
+[7.997280] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.zsh\n'}
+[7.997334] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.dsv\n'}
+[7.997467] (hello_moveit) StdoutLine: {'line': b'-- Installing: /mnt/moveit/ws_moveit/install/hello_moveit/share/hello_moveit/package.dsv\n'}
+[7.997553] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit\n'}
+[7.997634] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake\n'}
+[7.997709] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake\n'}
+[7.997747] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /mnt/moveit/ws_moveit/install/hello_moveit/share/hello_moveit/package.xml\n'}
+[7.998105] (hello_moveit) CommandEnded: {'returncode': 0}
+[8.009461] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 0}
+[8.009880] (-) EventReactorShutdown: {}

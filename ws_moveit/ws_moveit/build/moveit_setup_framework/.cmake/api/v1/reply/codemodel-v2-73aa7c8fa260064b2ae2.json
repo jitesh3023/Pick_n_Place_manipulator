@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c45d7fc8233a689d694b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_setup_framework",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_framework::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_framework-Release-70aff111066ccabcee0c.json",
+					"name" : "moveit_setup_framework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_framework_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_framework_autogen-Release-7358c4e69b8796208df1.json",
+					"name" : "moveit_setup_framework_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_framework_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_framework_autogen_timestamp_deps-Release-65d5145a240d4a18707d.json",
+					"name" : "moveit_setup_framework_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_framework_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_framework_uninstall-Release-3771cc72c1b04e4fcc8c.json",
+					"name" : "moveit_setup_framework_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-d7bf3048407a23278958.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/moveit/ws_moveit/build/moveit_setup_framework",
+		"source" : "/mnt/moveit/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
