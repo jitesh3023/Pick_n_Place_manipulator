@@ -1,8 +1,0 @@
-[33mCMake Warning:
-  Ignoring extra path from command line:
-
-   "/mnt/moveit/ws_moveit/compat/kinova_rviz/share/kortex_description"
-
-[0m
-[0mCMake Error: The source directory "/mnt/moveit/ws_moveit/compat/kinova_rviz/share/kortex_description" does not appear to contain CMakeLists.txt.
-Specify --help for usage, or press the help button on the CMake GUI.[0m

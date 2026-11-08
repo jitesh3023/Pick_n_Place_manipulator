@@ -6,9 +6,15 @@ __pycache__/
 # RoboDK/URSim temporary exports
 *.bak
 *.tmpws_moveit/log/
-ws_moveit/build/
-ws_moveit/install/
+ws_moveit/
 **/log/
 **/build/
 **/install/
 lost+found/
+tooling/
+log/
+re
+sys
+COLCON_IGNORE
+latest
+latest_mixin

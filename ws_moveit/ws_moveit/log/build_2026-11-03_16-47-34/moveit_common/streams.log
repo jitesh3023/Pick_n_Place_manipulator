@@ -1,7 +1,0 @@
-[0.036s] Invoking command in '/mnt/moveit/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/moveit/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /mnt/moveit/ws_moveit/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/mnt/moveit/ws_moveit/install/moveit_common
-[0.216s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
-[0.217s] -- Configuring done (0.2s)
-[0.217s] -- Generating done (0.0s)
-[0.217s] -- Build files have been written to: /mnt/moveit/ws_moveit/build/moveit_common
-[0.220s] Invoked command in '/mnt/moveit/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/moveit/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /mnt/moveit/ws_moveit/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/mnt/moveit/ws_moveit/install/moveit_common
-[0.222s] Invoking command in '/mnt/moveit/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/moveit/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /mnt/moveit/ws_moveit/build/moveit_common -- -j16 -l16
